@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 
 def load_model():
-    with open("D:\\Euron\\Data Science\\FSDS\\stud_per_app\\Student_lr_final_model.pkl", "rb") as file: # read binary file "rb"
+    with open("D:\\Euron\\Data-Science\\FSDS\\stud_per_app\\Student_lr_final_model.pkl", "rb") as file: # read binary file "rb"
        model, scaler, le = pickle.load(file) # change the variable name as per your convenient
     return model, scaler, le
 
